@@ -27,7 +27,7 @@
 		</div>
 		<div class="header-overlay"></div>
 		<div class="header-content">
-		  <h2 style="color: #1aa8bb;">Hola Mundo</h2>
+		  <h2 style="color: #143a58;">Hola Mundo</h2>
 		  <h1 style="margin-bottom: 10px;">Soy Francisco August </h1>
 		  <h2>FRONT-END DEVELOPER</h2>
 
@@ -254,7 +254,20 @@
 		</section>
 
 
+		<section class="contenedor-main3 row align-items-center  justify-content-center Formacion">
+			   <div class="padre_proyectos">
+     <div class="contedor1">
+  <img src="img/pagina1.png" alt="">
+     </div>
+     <div class="contedor2">
+        #2
+           </div>
 
+           <div class="contedor3">
+            #3
+               </div>
+    </div>
+		</section>
 
 
 
@@ -678,7 +691,43 @@ font-size: 60px;
 
 }
 
+.padre_proyectos{
+      display: flex;
+      gap: 5px;
+  
 
+    }
+ 
+    .contedor1{
+        height: 195px;
+        width: 400px;
+        background: rgb(126, 119, 119);
+        position: relative; 
+        
+      
+    }
+.contedor1 img{
+    width: 97%;
+    height:185px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+    .contedor2{
+        height: 155px;
+        width: 220px;
+        background: rgb(88, 84, 84);
+        position: relative; 
+        right: 65px;
+       top: 40px;
+    }
+    .contedor3{
+        height: 125px;
+        width: 70px;
+        background: rgb(54, 49, 49);
+        position: relative; 
+        right: 80px;
+       top: 71px;
+    }
 
   @keyframes mover{
 	  0%{
@@ -698,6 +747,38 @@ font-size: 60px;
 
 
 
+  @media only screen and (max-width: 300px) {
+	.caja-contenedora{
+position: relative;
+right: 500px;
+bottom: 750px;
+
+
+
+
+
+  }
+.icono{
+	font-size: 20px;
+}
+.padre-iconos{
+	position: relative;
+	left: 20px;
+	margin-right: 30px;
+	font-size: 10px;
+}
+
+.header-content h1 {
+	font-size: 30px;
+	margin-bottom: 0;
+	font-family: 'Viga', sans-serif;
+  }
+  .header-content h2 {
+	font-size: 20px;
+	
+	font-family: 'Viga', sans-serif;
+  }
+  }
 
 
 	@media only screen and (max-width: 850px) {
@@ -799,7 +880,7 @@ bottom: 290px;
 .icono{
 
 	color: rgb(15, 118, 126);
-	font-size: 50px;
+	font-size: 40px;
 
 }
 .contenedor-main3 h2{
@@ -812,8 +893,10 @@ bottom: 290px;
 
 .caja-contenedora{
 position: relative;
-right: 170px;
-bottom: 693px;
+right: 115px;
+bottom: 750px;
+margin-right: 30px;
+
   }
   .caja-contendora2{
 display: none;
@@ -827,9 +910,9 @@ display: none;
 	border-left: 2px solid whitesmoke;
 	height: 390px;
 	position: relative;
-     bottom: 550px;
-	right: 140px;
-	
+     bottom: 600px;
+	right: 90px;
+	margin-right: 5px;
 
 
 
