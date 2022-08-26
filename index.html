@@ -17,6 +17,7 @@
 	<title>Grid de Bootstrap 5</title>
 </head>
 <body>
+	
 	<div class="video content ">
 
 		<div class="header-video">
@@ -39,6 +40,7 @@
 	 
   
 	  <div class="container-fluid">  
+		
 		  <header class="row fixed-top ">
 		  <div class="col">
 			<nav class="navbar navbar-expand-lg navbar-dark  ">
@@ -52,18 +54,23 @@
 			
 				<div class="x"><!-- Forma #1 -->
 				  <div class="efecto-maquina-escribir">
-					<h1 class="efecto-maquina"> <span class="tx-1">desarrollo</span> web..</h1>
+					<h1 class="efecto-maquina"> <span class="tx-1">desarrollo</span> <span style="color: #fff;" > web..</span> </h1>
 				  </div>
 				</div>
 			
 			   
 				
-				<div class="collapse navbar-collapse " id="navbarNav">
+				<div class="collapse navbar-collapse " id="navbarNav" >
 			  
 					<ul class="navbar-nav ms-auto ">
-					  <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-					  <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-					  <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+					
+						<div class="modificar-menu-boostrapp">
+							<li class="nav-item"><a class="nav-link" href="#about" style="color: #fff;">About</a ></li>
+					  <li class="nav-item"><a class="nav-link" href="#habilidades" style="color: #fff;">habilidades</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#formacion" style="color: #fff;">Formacion</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#portafolio" style="color: #fff;">Portafolio</a></li>
+						</div>
+					  
 					</ul>
 				
 				  </div>
@@ -82,15 +89,15 @@
 			<div class="img-about">
 					 <img src="img/yo2.jpg" alt="">
 			</div>
-			<div class="parrafo-about">
-						  <p style="color: #1a3333;"> Hola soy un apasionado de la programcion web, radicado en Santiago de Chile, Me identifico por ser autodidacta, perseverante y proactivamente me procupo por seguir cultivando mis conocimientos, habilidades técnicas y personales para desarrollarme en un lugar en el que el éxito individual y grupal se origine de la retroalimentación.</p>
+			<div class="parrafo-about " >
+						  <p style="color: #1a3333; "  class="container" > Venezolana de 24 años de edad, radicada en Santiago de Chile, Me identifico por ser autodidacta, perseverante y proactivamente me movilizo por seguir cultivando mis conocimientos, habilidades técnicas y personales para desarrollarme en un lugar en el que el éxito individual y grupal se origine de la retroalimentación.</p>
 		  </div>
 		  </div>
 	
 		  
 		</section>
 		
-		<section class="contenedor-main-2 row align-items-center  justify-content-center">
+		<section class="contenedor-main-2 row align-items-center  justify-content-center " id="habilidades">
 			<h2  >Habilidades</h2>
 			
 			<div class="col-md-6 habilidades  ">
@@ -136,11 +143,11 @@
 			</div>
 			<div class="cv-descarga d-flex justify-content-center">
 
-				<a href="assets/img/" download="ProfessionalResume">Descargar CV</a>
+				<a href="img/harry3.pdf" download="ProfessionalResume">Descargar CV</a>
 				</div>
 		</section>
 
-		<section class="contenedor-main3 row align-items-center  justify-content-center Formacion">
+		<section class="contenedor-main3 row align-items-center  justify-content-center Formacion" id="formacion">
 		
 			<h2>Formacion</h2>
 			<div class="col-md-6  align-items-center contenedor-formacion">
@@ -255,38 +262,78 @@
 		</section>
 
 
-		<section class="contenedor-main4 row   ">
+		<section class="contenedor-main4 row   " id="portafolio">
 <div>
-	<h3 style="text-align:center; color:#fff">Portafolio</h3>
+	<h3 style="text-align:center; color:rgb(19, 153, 158)">Portafolio</h3>
 	<h2 style="text-align:center; color:#fff"> Mis proyectos</h2>
-	<p style="width: 400px; color: #fff;  text-align: center; margin: auto;">Desarrolle proyectos reales, con la metodología ágil. Donde fui capaz de crear soluciones innovadoras, eficaces y rápidas en plazos cortos, aprendiendo de mis errores.</p>
+	<p style="color: #fff; text-align: center;" class="parrafo-portafolio">
+		Desarrolle proyectos reales, con la metodología ágil. Donde fui capaz de crear soluciones innovadoras, eficaces y rápidas en plazos cortos, aprendiendo de mis errores.
+	</p>
 </div>
 	
 			
 			<section class="gallery min-vh-100 justify-content-center">
 				<div class="container-lg">
+					
 					<div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
-						<div class="col-12 col-md-6  col">
-							<img src="img/responsive (3).png" class="gallery-item" alt="Gallery1">
+						
+						<div class="col-12 col-md-6 cl ">
+						
+							
+							
+											
+						
+							<img src="img/proyecto1.png" class="gallery-item" alt="Gallery1">
+							
+							<div class="projects-repositiorio-web ">  
+								
+								<a class="repositiorio">Repositorio</a >
+								<a class="web">Ir a sitio Web</a >
+							</div>		
 						</div>
 		
-						<div class="col-12 col-md-6">
-							<img src="img/proyecto2.png" class="gallery-item" alt="Gallery1">
+						<div class="col-12 col-md-6  cl">
+							<img src="img/pagina1.png" class="gallery-item" alt="Gallery1">
+							<div class="projects-repositiorio-web ">  
+								
+								<a class="repositiorio">Repositorio</a >
+								<a class="web">Ir a sitio Web</a >
+							</div>	
 						</div>
 		
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 cl">
 							<img src="img/proyecto3.png" class="gallery-item" alt="Gallery1">
+							<div class="projects-repositiorio-web ">  
+								
+								<a class="repositiorio">Repositorio</a >
+								<a class="web">Ir a sitio Web</a >
+							</div>	
 						</div>
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 cl">
 							<img src="img/proyecto4.png" class="gallery-item" alt="Gallery1">
+							<div class="projects-repositiorio-web ">  
+								
+								<a class="repositiorio">Repositorio</a >
+								<a class="web">Ir a sitio Web</a >
+							</div>	
 						</div>
 		
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 cl">
 							<img src="img/proyecto5.png" class="gallery-item" alt="Gallery1">
+							<div class="projects-repositiorio-web ">  
+								
+								<a class="repositiorio">Repositorio</a >
+								<a class="web">Ir a sitio Web</a >
+							</div>	
 						</div>
 		
-					<div class="col-12 col-md-6">
+					<div class="col-12 col-md-6 cl  " >
 							<img src="img/proyecto6.png" class="gallery-item" alt="Gallery1">
+					<div class="projects-repositiorio-web ">  
+								
+								<a class="repositiorio">Repositorio</a >
+								<a class="web">Ir a sitio Web</a >
+							</div>	
 						</div>
 					</div>
 				</div>
@@ -302,7 +349,7 @@
 			  </div>
 			  <div class="modal-body">
 				<img src="images/1.jpg" class="modal-img" alt="Modal Image">
-				  <a  style="display: inline-block; background: #143a58;"> ir sitio web</a >
+				
 			  </div>
 			</div>
 		  </div>
@@ -315,8 +362,8 @@
 
 
 
-		<section class="row widgets ">
-			<div class="col-12 col-md-2 col-lg-2 Columnas">
+		<section class="row widgets" >
+			<div class="col-12 col-md-2 col-lg-2 Columnas " id="img1">
 			<i class="fa-solid  iconos fa-diagram-project"></i>
 			<span class="num" data-val="6">000</span>
 			<p>proyectos </br> completados</p>
@@ -360,27 +407,58 @@
 		</section>
 		  
 
-		
-	
+
 		<footer class="row">
 		  <div class="col">
-			<h4>Footer</h4>
-			<p>12 Columnas</p>
+				<h2 style="text-align: center" > contacto</h2>
+			
+				<div class="container px-4 px-lg-5">
+					<div class="row gx-4 gx-lg-5">
+						<div class="col-md-4 mb-3 mb-md-0">
+							<div class="card py-4 h-100">
+								<div class="card-body text-center">
+									<i class="fas fa-envelope text-primary mb-2"></i>
+									<h4 class="text-uppercase m-0">Escribeme</h4>
+									<hr class="my-4 mx-auto" />
+									<div class="small text-black-50"><a href="#!">franciscoaugust19921992gmail.com</a></div>
+								</div>
+							</div>
+						</div>
+				
+						<div class="col-md-4 mb-3 mb-md-0">
+							<div class="card py-4 h-100">
+								<div class="card-body text-center">
+									<i class="fa-solid fa-phone-volume"></i>
+									<h4 class="text-uppercase m-0 ">LLamame al</h4>
+									<hr class="my-4 mx-auto" />
+									<div class="small text-black-50"><a href="#!">953043491</a></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-3 mb-md-0">
+							<div class="card py-4 h-100">
+								<div class="card-body text-center">
+									<i class="fa-solid fa-brain"></i>
+									<h4 class="text-uppercase m-0">Encuentrame</h4>
+									<hr class="my-4 mx-auto" />
+								    <a href=""><i class="fa-brands fa-instagram"></i></a>
+									<a href="https://github.com/fagust1992?tab=repositories"><i class="fab fa-github"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+	
+				
+			</section>
 		  </div>
 		</footer>
 
 	  <script src="js/bootstrap.bundle.min.js"></script>
 	  <script src="js/js.js"></script>
 	  <script type="text/javascript">
-		document.addEventListener("click",function (e){
-			console.log(e)
-		  if(e.target.classList.contains("gallery-item")){
-		  	  const src = e.target.getAttribute("src");
-		  	  document.querySelector(".modal-img").src = src;
-		  	  const myModal = new bootstrap.Modal(document.getElementById('gallery-popup'));
-		  	  myModal.show();
-		  }
-		})
+
 	</script>
 	</body>
   
@@ -390,638 +468,6 @@
 
 
 
-
-.gallery{
-	padding: 80px 0px;
-
-}
-img{
-	max-width: 100%;
-}
-.gallery img{
-	background: #fff;
-	padding: 15px;
-	width: 100%;
-	box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
-	cursor: pointer;
-	height: 220px;
-	border-radius: 20px;
- 
-
-	
-}
-#gallery-popup .modal-img{
-	width: 100%;
-}
-
-
-			body {
-	background:#000000;}
-	  .video {
-	height: 620px;
-	display: flex;
-	align-items: center;
-	color: #fff;
-	overflow-x: hidden
-  }
-  
-  .content {
-	max-width: 40rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
-	margin: auto;
-	text-align: center;
-  }
-  .header-content{
-position: relative;
-margin: auto;
-  }
-  .header-video {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 620px;
-	overflow: hidden;
-  }
-  
-  .header-video video {
-	min-width: 100%;
-	min-height: 100%;
-  }
-  
-  .header-overlay {
-	height: 620px;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: #0b0d13;
-	z-index: 1;
-	opacity: .85;
-  }
-  
-  .header-content {
-	z-index: 2;
-  }
-  .button-a{
-	display: inline-block;
-	background: #143a58;
-	color: #fff;
-	padding: 20px;
-border-radius: 30px;
-	margin-bottom: 5px;
-	text-decoration: none;
-  }
-  .header-content h1 {
-	font-size: 50px;
-	margin-bottom: 0;
-	font-family: 'Viga', sans-serif;
-  }
-  .header-content h2 {
-	font-size: 25px;
-	
-	font-family: 'Viga', sans-serif;
-  }
-  
-  
-  .header-content p {
-	font-size: 1.5rem;
-	display: block;
-	padding-bottom: 2rem;
-	
-  }
-  
-  header {
-	  background:#000000;
-	  margin-bottom: 20px;
-	  height: 70px;
-	  
-  }
-  .efecto-maquina{
-	  font-family: monospace;
-	  border-right: 2.5px solid rgb(11, 122, 11);
-	  animation: cursor .5s infinite , 
-	  escribiendo 5.5s  steps(20) infinite;
-	  white-space:nowrap;
-	  overflow: hidden;
-	  font-size: 18px;
-	  font-family: 'Montserrat', sans-se;
-  
-  
-  }
-  
-  .tx-1{
-	  color: rgb(11, 122, 11);
-	  font-weight: bold;
-	  
-  }
-  .efecto-maquina-escribir{
-	  display: inline-block;
-  }
-  @keyframes cursor{
-  0%{
-	  border-color: transparent;
-  }
-  50%{
-	border-color: green;
-  }
-  }
-  @keyframes escribiendo{
-	  from{
-		  width: 0px;
-	  }
-	  to{
-		  width: 100%;
-	  }
-  }
-  /* fin de header*/
-   .btn-primary{
-	background: rgb(51, 70, 153);
-	padding: 20px;
-	text-decoration: none;
-	border-radius: 20px;
-
-	
-  }
-  .btn-primary:hover{
-   background: rebeccapurple;
-  }
-  /* *****************************************************+*/
-  /* *****************************************************+*/
-  /* main*/
-  .contenedor-main {
-	  margin-bottom: 10px;
-	  height: 650px;
-	  background:#000000;
-	  font-family: 'Roboto Condensed',sans-serif;
-  }
-.contenedor-main4 {
-	margin-bottom: 10px;
-	  height: 1400px;
-	  background:#000000;
-	  font-family: 'Roboto Condensed',sans-serif;
-	  
-}
-  .contenedor-main-2{
-	background: rgb(34, 30, 30);
-}
-
-  .contenedor-main h2,.contenedor-main-2 h2,.contenedor-main3  h2{
-	  text-align: center;
-	  font-family: 'Viga', sans-serif;
-	  font-size: 20px;
-	  color: #fff;
-	  margin-top: 7px;
-	  font-family: 'Roboto Condensed',sans-serif;
-
-  }
-
-  .contenedor-main3  h2{
-	position: relative;
-	top: 50px;
-}
-.text-right{
-	display: flex;
-	justify-content: end;
-}
-
-.text-left{
-	display: flex;
-	justify-content: start;
-}
-
-.Formacion{
-	background: #01182b;
-	font-family: 'Roboto Condensed',sans-serif;
-	height: 760px;
-	
-
-}
-.contenedor-formacion{
-	
-	display: flex;
-	justify-content: center;
-	gap: 30px;
-	font-size: 18px;
-	
-}
-.contenedor-main4 {
-	margin-bottom: 10px;
-	  height: 990px;
-	  background:#161313;
-	  font-family: 'Roboto Condensed',sans-serif;
-	  
-}
-.spans-hijos{
-	
-	margin: 60px 0px;
-	padding: 20px;
-	color: #fff;
-
-}
-
-.iconos-spans{
-	
-	margin: 60px 0px;
-}
-.icono{
-	background: #0b0d13;
-	color: rgb(126, 10, 68);
-	font-size: 40px;
-	padding: 8px;
-	 border-radius: 50%;
-	position: relative;
-	top: 10px;
-}
-
-
-.padre-iconos{
-position:relative;
-bottom: 190px;
-
-
-
-}
-.div2{
-	display: none;
-}
-
-.div{
-	border-left: 2px solid whitesmoke;
-	height: 360px;
-	position: relative;
-	left: 49%;
-	top: 210px;
-}
-	.sistema{
-
-position: relative;
-top: 25px;
-
-}
-.ingles{
-	position: relative;
-	top: 11px;
-}
-.texto-en-mobil{display: none;}
-
-  .img-about img{
-	  width: 250px;
-	  height:270px;
-	  border-radius: 50%;
-	  margin-right: 6px;
-  }
-  .parrafo-about{
-	width: 400px;
-  }
-  .acerca-de-mi , .habilidades {
-	  background:rgb(255, 255, 255);
-	  color: #383636;
-	  padding: 20px 10px;
-	  height: 500px;
-	  display: flex;
-  border-radius: 2%;
-  font-weight:500;
-  
-  }
-  .acerca-de-mi {
-	padding: 10px 10px;
-	position: relative;
-  }
-  
-
-
-
-
-
-  .habilidades{
-	display: flex;
-	justify-content: center;
-	gap: 120px;
-	background: #000;
-	font-family: 'Roboto Condensed',sans-serif;
-	
-}
-/* iconos main*/
-.html ,.css , .git{
-	color: rgb(25, 51, 199);
-	background: #000000;
-	font-size: 120px;
-
-
-}
-.js , .github, .figma{
-
-	color: rgb(25, 51, 199);
-	font-size: 120px;
-	background: #000
-	
-}
-.fusia{
-	background: #2196f3;
-	width: 50px;
-	height: 50px;
-}
-
-.cv-descarga a{
-	background:rgb(25, 51, 199);
-	display: flex;
-	color: #fff;
-	text-decoration: none;
-justify-content: center;
-width: 30%;
-padding: 20px;
-margin-bottom: 20px;
-	
-}
-.contenedor-main-2 p{
-	text-align: center;
-	color: #fff;
-}
-
-.padre{
-height: 290px;
-	background: #000000;
-
-
-
-}
-
-.padre .col{
-	display: flex;
-
-	justify-content: center;
-	align-items: center;
-	border-right:1px solid #2196f3 ;
-	
-}
-
-
-.margen-padre-columnas{
-	margin:10px 0px
-}
-.margen-padre-columnas .iconos{
-font-size: 40px;
-}
-
-.iconos{
-
-color:	rgb(25, 51, 199);
-font-size: 60px;
-
-
-}
-
-.padre_proyectos{
-      display: flex;
-      gap: 5px;
-  
-
-    }
- 
-    .contedor1{
-        height: 195px;
-        width: 400px;
-        background: rgb(126, 119, 119);
-        position: relative; 
-        
-      
-    }
-
-
-  @keyframes mover{
-	  0%{
-		  transform: translateX(30%);
-		  
-  
-	  }
-  100%{
-	  transform: translateX(70%) translateY(80%);
-  }
-  
-  
-  }
-  
-
-
-  @media only screen and (max-width: 300px) {
-	.caja-contenedora{
-position: relative;
-right: 500px;
-bottom: 750px;
-
-  }
-.icono{
-	font-size: 20px;
-}
-.padre-iconos{
-	position: relative;
-	left: 20px;
-	margin-right: 30px;
-	font-size: 10px;
-}
-
-.header-content h1 {
-	font-size: 30px;
-	margin-bottom: 0;
-	font-family: 'Viga', sans-serif;
-  }
-  .header-content h2 {
-	font-size: 20px;
-	
-	font-family: 'Viga', sans-serif;
-  }
-  }
-
-
-	@media only screen and (max-width: 774px) {
-	.acerca-de-mi{
-	 flex-direction: column;
-	 height: 600px;
-	}
-.contenedor-main-2 h2{
-	margin-top:30px
-}
-
-.parrafo-about p{
-text-align:center
-}
-	.habilidades{
-		
-		gap: 30px;
-flex-direction: column;
-	display: flex;
-	justify-content: center;
-	height: 1100px;
-	background: #000;
-align-items: center;
-	
-}
-
-
-/* iconos main*/
-
-
-.html ,.css , .git{
-	color: rgb(25, 51, 199);
-	background: #000000;
-	font-size: 110px;
-
-
-}
-.js , .github, .figma{
-
-	color: rgb(25, 51, 199);
-	font-size: 110px;
-	background: #000
-	
-}
-.fa-css3-alt{
-	position: relative;
-left: 5px;
-font-size:125px;
-}
-.fusia{
-	background: #2196f3;
-	width: 50px;
-	height: 50px;
-}
-
-.cv-descarga a{
-	background:rgb(25, 51, 199);
-	display: flex;
-	color: #fff;
-	text-decoration: none;
-justify-content: center;
-width: 200px;
-padding: 20px;
-margin-bottom: 20px;
-	
-}
-.contenedor-main-2 p{
-	text-align: center;
-	color: #fff;
-}
-	.acerca-de-mi img{
-	  margin-bottom: 10px;
-	}
-	.text-left{
-		font-size: 17px;
-	}
-	.text-right{
-		font-size: 17px;
-	
-	}
-
-	.padre-iconos{
-position:relative;
-bottom: 290px;
-
-
-
-}
-.contenedor-main3{
-	background: #0b0d13;
-	
-}
-
-.text-right{
-	display: flex;
-	justify-content: start;
-	font-size: 18px;
-}
-.icono{
-
-	color: rgb(15, 118, 126);
-	font-size: 40px;
-
-}
-.contenedor-main3 h2{
-	color: rgb(15, 118, 126); ;
-}
-.contenedor-formacion{
-	flex-direction: column;
-	
-}
-
-.caja-contenedora{
-position: relative;
-right: 115px;
-bottom: 750px;
-margin-right: 30px;
-
-  }
-  .caja-contendora2{
-display: none;
-  }
-  .div{
-		display: none;
-	}
-.div2{
-	display: block;
-
-	border-left: 2px solid whitesmoke;
-	height: 390px;
-	position: relative;
-     bottom: 600px;
-	right: 90px;
-	margin-right: 5px;
-
-
-
-}
-.contenedor-main3{
-	height: 780px;
-}
-.contenedor-main4 {
-	margin-bottom: 10px;
-	  height: 900px;
-	  background:rgb(1, 42, 54);
-	  font-family: 'Roboto Condensed',sans-serif;
-}
-
-.texto-en-mobil{
-	display: block;
-}
-.sistema{
-	display: block;
-}
-
-.padre{
-	height: 1000px;
-	
-}
-
-.Columnas{
-	border-bottom: 2px solid rgb(102, 196, 240);
-	display: flex;
-	flex-direction: column;
-
-text-align: center;
-gap: 40px;
-}
-
-.iconos{
-	font-size: 60px;
-	color:#11521c ;
-}
-.contenedor-main4{
-	height: 1700px;
-}
-
-.header-overlay {
-	height: 620px;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: #0b0d13;
-	z-index: 1;
-	opacity: .60;
-  }
-  
-	}
 	</style>
   </html>
   
