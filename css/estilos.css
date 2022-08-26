@@ -415,11 +415,11 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 margin-top: 5px;
-display: none;
+
 }
 .cl:hover .projects-repositiorio-web{
-	display: block;
-	background: #000;
+
+	background: rgb(13, 89, 119);
 height:50px;
 display: flex;
 justify-content: space-between;
@@ -504,8 +504,6 @@ color: rgb(25, 51, 199);;
 	background: #000000;
 	color: #fff;
 	padding: 20px;
-
-	
 	
 }
 
