@@ -46,6 +46,8 @@ const imagen1=document.getElementById("img1")
   
  var texto_proyecto1=document.querySelector(".inmobiliaria-san-jose");
  var texto_proyecto2=document.querySelector(".harrypotter");
+ var texto_proyecto3=document.querySelector(".tecnologia");
+ console.log(texto_proyecto3)
  console.log(texto_proyecto2.textContent)
 
  console.log(texto_proyecto1)
@@ -60,6 +62,9 @@ const imagen1=document.getElementById("img1")
      }
      else if (src=="img/proyecto3.png") {
       texto_modal.innerHTML=texto_proyecto2.textContent
+     }
+     else if (src=="img/pagina1.png") {
+      texto_modal.innerHTML=texto_proyecto3.textContent
      }
         document.querySelector(".modal-img").src = src;
       document.querySelector(".capa-a");
